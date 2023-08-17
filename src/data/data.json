@@ -1,0 +1,58 @@
+{
+  "lsoApisOptions": [
+    {
+      "label": "Address Validation & Site Query",
+      "value": "Address Validation & Site Query"
+    },
+    { "label": "Product Catalog", "value": "Product Catalog" },
+    {
+      "label": "Product Offering Qualification",
+      "value": "Product Offering Qualification"
+    },
+    { "label": "Quote", "value": "Quote" },
+    {
+      "label": "Product Offering Availability and Pricing Discovery",
+      "value": "Product Offering Availability and Pricing Discovery"
+    },
+    {
+      "label": "Product Order",
+      "value": "Product Order"
+    }
+  ],
+  "lsoRelease": [
+    {
+      "label": "LSO Fergie",
+      "value": "LSO Fergie"
+    },
+    {
+      "label": "LSO Grace",
+      "value": "LSO Grace"
+    },
+    {
+      "label": "LSO Haley",
+      "value": "LSO Haley"
+    },
+    {
+      "label": "LSO Irene",
+      "value": "LSO Irene"
+    },
+    {
+      "label": "LSO Janis",
+      "value": "LSO Janis"
+    }
+  ],
+  "lsoStatus": [
+    {
+      "label": "Planned",
+      "value": "Planned"
+    },
+    {
+      "label": "Development",
+      "value": "Development"
+    },
+    {
+      "label": "Unspecified",
+      "value": "Unspecified"
+    }
+  ]
+}

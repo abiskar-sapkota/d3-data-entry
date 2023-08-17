@@ -1,0 +1,133 @@
+{
+  "clearInvisibleValues": "onHidden",
+  "elements": [
+    {
+      "type": "radiogroup",
+      "name": "lsoApi",
+      "title": "Add an LSO API to your visualization",
+      "isRequired": true,
+      "choices": [
+        "Address Validation & Site Query",
+        "Product Catalog",
+        "Product Offering Qualification",
+        "Quote",
+        "Product Offering Availability and Pricing Discovery",
+        "Product Order"
+      ],
+      "colCount": 0
+    },
+    {
+      "type": "radiogroup",
+      "name": "lsoRelease",
+      "title": "Select lso Releases",
+      "visibleIf": "{lsoApi} = 'Address Validation & Site Query'",
+      "isRequired": true,
+      "choices": ["LSO Fergie", "LSO Grace", "LSO Haley", "LSO Janis"],
+      "colCount": 0
+    },
+    {
+      "type": "radiogroup",
+      "name": "lsoRelease",
+      "title": "Select lso Releases",
+      "visibleIf": "{lsoApi} = 'Product Offering Qualification'",
+      "isRequired": true,
+      "choices": ["LSO Fergie", "LSO Grace", "LSO Janis"],
+      "colCount": 0
+    },
+    {
+      "type": "radiogroup",
+      "name": "lsoRelease",
+      "title": "Select lso Releases",
+      "visibleIf": "{lsoApi} = 'Product Catalog'",
+      "isRequired": true,
+      "choices": ["LSO Grace", "LSO Haley", "LSO Janis"],
+      "colCount": 0
+    },
+    {
+      "type": "radiogroup",
+      "name": "lsoRelease",
+      "title": "Select lso Releases",
+      "visibleIf": "{lsoApi} = 'Quote'",
+      "isRequired": true,
+      "choices": [
+        "LSO Fergie",
+        "LSO Grace",
+        "LSO Haley",
+        "LSO Janis",
+        "LSO Janis"
+      ],
+      "colCount": 0
+    },
+    {
+      "type": "radiogroup",
+      "name": "lsoRelease",
+      "title": "Select lso Releases",
+      "visibleIf": "{lsoApi} = 'Product Order'",
+      "isRequired": true,
+      "choices": [
+        "LSO Fergie",
+        "LSO Grace",
+        "LSO Haley",
+        "LSO Janis",
+        "LSO Janis"
+      ],
+      "colCount": 0
+    },
+    {
+      "type": "radiogroup",
+      "name": "lsoRelease",
+      "title": "Select lso Releases",
+      "visibleIf": "{lsoApi} = 'Product Offering Availability and Pricing Discovery'",
+      "isRequired": true,
+      "choices": [
+        "LSO Fergie",
+        "LSO Grace",
+        "LSO Haley",
+        "LSO Janis",
+        "LSO Janis"
+      ],
+      "colCount": 0
+    },
+    {
+      "type": "radiogroup",
+      "name": "lsoStatus",
+      "title": "Select a status",
+      "visibleIf": "{lsoRelease} = 'LSO Fergie'",
+      "choices": ["Planned", "Development", "Unspecified"],
+      "colCount": 0
+    },
+    {
+      "type": "radiogroup",
+      "name": "lsoStatus",
+      "title": "Select a status",
+      "visibleIf": "{lsoRelease} = 'LSO Grace'",
+      "choices": ["Unspecified"],
+      "colCount": 0
+    },
+    {
+      "type": "radiogroup",
+      "name": "lsoStatus",
+      "title": "Select a status",
+      "visibleIf": "{lsoRelease} = 'LSO Haley'",
+      "choices": ["Unspecified"],
+      "colCount": 0
+    },
+    {
+      "type": "radiogroup",
+      "name": "lsoStatus",
+      "title": "Select a status",
+      "visibleIf": "{lsoRelease} = 'LSO Irene'",
+      "choices": ["Planned", "Unspecified"],
+      "colCount": 0
+    },
+    {
+      "type": "radiogroup",
+      "name": "lsoStatus",
+      "title": "Select a status",
+      "visibleIf": "{lsoRelease} = 'LSO Janis'",
+      "choices": ["Planned"],
+      "colCount": 0
+    }
+  ],
+  "showQuestionNumbers": false
+}
